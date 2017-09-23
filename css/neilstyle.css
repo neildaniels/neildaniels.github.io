@@ -1,0 +1,75 @@
+body, .subtitle, .main-container h1, .main-container h2  {
+    font-family: Menlo, Monaco, "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #1d91e9;
+}
+
+a:hover {
+	padding: 0.1em 0.3em;
+	margin: -0.1em -0.3em;
+	background-color: #333;
+	color: #fffff9;
+	text-decoration: none;
+}
+
+.outer-outer-container {
+	width: 34em;
+    border-color: #1451cc;
+    border-width: 0;
+    margin: 2em auto;
+    background-color: transparent;
+}
+
+.outer-container {
+    padding: 0 5em;
+    border-width: 0.75em 1em 1em;
+/*     border-radius: 1.5em; */
+    background-color: #fafbff;
+}
+
+.header-container {
+    margin: 0 -4em 0;
+}
+
+.solo .header-container {
+    background-color: #1d91e9;
+}
+
+.footer-container {
+    margin: 3.5em 0 0;
+}
+
+.title {
+    letter-spacing: -0.08em;
+}
+
+.link-roster {
+	margin: 2em 0 2.5em;
+	text-align: center;
+    font-family: Futura, "Avenir Next", Avenir, "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.01em;
+}
+
+.link-roster p {
+	margin: 0.5em 0;
+}
+
+.footer-container a, .header-container a {
+	padding: 0.2em 0.5em;
+	margin: -0.2em -0.5em;
+}
+
+.main p {
+	margin: 1em 0 1.5em;
+}
+
+.main a {
+	font-weight: 500;
+}
+
+.lightText {
+   color: #aaa;
+}

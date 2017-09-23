@@ -1,0 +1,259 @@
+body, .subtitle, .main-container h1, .main-container h2  {
+    font-family: "Avenir Next", Avenir, Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: 1.4em;
+    color: #333;
+    background-color: #e55b27;
+}
+
+body.solo {
+    background-color: #fffff9;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: black;
+}
+
+.outer-outer-container {
+    background-color: #fffff9;
+    width: 26em;
+    border-style: solid;
+    border-width: 0 0.75em;
+    border-color: #cb4514;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.solo .outer-outer-container {
+    border-width: 0.75em 0 0;
+    width: inherit;
+}
+
+.outer-container {
+    border-style: solid;
+    border-width: 0 1em;
+    border-color: #333;
+    padding: 0 4em;
+}
+
+.solo .outer-container {
+    border-width: 1em 0 0;
+    padding: 1em 0;
+}
+
+.main-container {
+    margin: 0 auto;
+}
+
+.solo .main-container {
+    margin: 0 auto;
+    width: 26em;
+}
+
+.header-container {
+    margin: 0 -2em 0;
+    padding: 4em 0 0.5em;
+}
+
+.solo .header-container {
+    background-color: #e55b27;
+    padding-bottom: 2.5em;
+    margin: 0;
+}
+
+.footer-container {
+    margin: 2.5em 0 0;
+    padding-bottom: .5em;
+}
+
+.solo .footer-container {
+    margin-top: 10em;
+}
+
+.title {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -0.1em;
+    font-size: 5em;
+    line-height: 1.15em;
+    margin: 0;
+    font-family: Futura, "Avenir Next", Avenir, "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
+.subtitle {
+    text-align: center;
+    display: block;
+    font-size: 1.313em;
+    margin-top: -0.524em;
+    margin-left: 9.048em;
+    letter-spacing: -0.05em;
+    color: #777;
+    display: none;
+}
+
+.globalNav {
+    font-size: 1.250em;
+}
+
+.main-container h1 {
+    text-align: left;
+    font-weight: 500;
+    margin: 1.250em -0.571em 0.5em;
+    letter-spacing: -0.031em;
+    
+    padding-bottom: 0.350em;
+    border-style: solid;
+    border-color: #686868;
+    border-width: 0 0 0.031em 0;
+}
+
+h1 .subtle {
+   font-weight: 300;
+   color: #5f5f5f;
+   font-size: 0.800em;
+   padding-left: 0.4em;
+}
+
+.main-container h2 {
+    font-size: 1.250em;
+    text-align: left;
+    font-weight: normal;
+    margin: 2.750em -1em 0.5em;
+    
+    padding-bottom: 0.250em;
+    border-style: solid;
+    border-color: #838383;
+    border-width: 0 0 0.063em 0;
+}
+
+.main-container ul {
+    list-style: disc;
+}
+
+.bezel-box {
+    background-color: #f9f9f2;
+    border: 0.063em solid #e6e6da;
+    padding: 0.750em 1.5em;
+}
+
+.gallery a {
+    border: 0.063em solid #b6b6b6;
+    padding: 0.315em;
+    margin: 0.63em;
+    width: 41%;
+    display: inline-block;
+}
+
+.gallery a img {
+   width: 100%;
+}
+
+.solo .main-container h2 {
+    text-align: left;
+}
+
+.globalNav ul {
+    padding: 0;
+    margin: 0 -0.750em;
+    border-width: 0 0 0.050em 0;
+    list-style: none;
+}
+
+.globalNav ul li {
+    border-color: rgb(237,237,237);
+    border-style: solid;
+    border-width: 0 0 0.050em;
+    padding: 0;
+    
+    -webkit-border-image: -webkit-linear-gradient(left, rgba(200,200,200, 0.3), rgba(200,200,200, 0.7), rgba(200,200,200, 0.3)) 1 0 100%;
+}
+
+.globalNav ul li:hover {
+    background: rgba(0,0,0,0.03);
+    background: -webkit-radial-gradient(50% 100%, 7.5em 2em, rgba(0,0,0,0.03), rgba(0,0,0,0));
+}
+
+.globalNav ul li a {
+    text-decoration: none;
+    color: #898989;
+    font-size: 0.800em;
+    display: block;
+    padding: 0.375em 1em 0.5em 1em;
+    font-family: "Gill Sans", "Avenir Next", Avenir, Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.globalNav ul li a:hover {
+    color: rgb(104,104,104);
+}
+
+.globalNav ul li a h3 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.250em;
+    color: #333;
+    margin: 0.300em 0 0;
+    line-height: 1em;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Avenir Next", Avenir, Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.globalNav ul li a:hover h3 {
+    color: #111;
+}
+
+.globalNav ul li a .rightArrow {
+    display: block;
+    float: right;
+    font-size: 2em;
+    color: #d3d3d3;
+    margin-top: 0.45em;
+}
+
+.globalNav ul li a:hover .rightArrow {
+    color: #bdbdbd;
+}
+
+.globalNav p {
+    font-size: 0.8em;
+}
+
+.footer-container p {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.styledButton {
+    font-weight: bold;
+    background-color: #e3e3cb;
+    padding: 0.5em;
+    margin: 1em 0 0;
+}
+
+input, textarea {
+   padding: 0.5em;
+}
+
+.sidenote {
+   color: #6d6d6d;
+   padding-left: 1em;
+}
+
+.lightText {
+   color: #888;
+}
